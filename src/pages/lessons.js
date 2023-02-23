@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import Link from 'next/link';
+import NavBar from '@/components/NavBar';
+import Footer from '@/components/Footer';
 
 export default function Lessons() {
     return (
@@ -8,8 +9,9 @@ export default function Lessons() {
                 <title>Lessons</title>
             </Head>
 
+            <NavBar />
             <h1>Lessons</h1>
-            <Link href='/'>Home</Link>
+            <Footer />
         </div>
     )
 }

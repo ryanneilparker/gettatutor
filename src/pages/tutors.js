@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import Link from 'next/link';
+import NavBar from '@/components/NavBar';
+import Footer from '@/components/Footer';
 
 export default function Tutors() {
     return (
@@ -8,7 +9,9 @@ export default function Tutors() {
                 <title>Tutors</title>
             </Head>
 
+            <NavBar />
             <h1>Tutors</h1>
-            <Link href='/'>Home</Link>
+            <Footer />
         </div>
+    )
 }

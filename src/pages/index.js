@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import NavBar from '@/components/NavBar';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -8,10 +10,10 @@ export default function Home() {
         <title>Home</title>
       </Head>
 
+      <NavBar />
       <h1>Home</h1>
-      <Link href='/lessons'>Lessons</Link>
-      <br />
-      <Link href='/tutors'>Tutors</Link>
+      <Footer />
     </div>
+
   );
 }
