@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-export default funciton Tutors() {
+export default function Tutors() {
     return (
         <div>
             <Head>
